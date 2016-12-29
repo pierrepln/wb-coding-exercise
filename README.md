@@ -1,3 +1,8 @@
+Explore any city
+
+<div style='position:relative;padding-bottom:63%'><iframe src='https://gfycat.com/ifr/OrnerySpicyIberianmidwifetoad' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+
+
 Started coding exercise using angular/quickstart from
 https://github.com/angular/quickstart
 
@@ -21,7 +26,7 @@ then
 `npm start`
 
 It should open a browser for you.
-nb: I'm using browsersync. It means you can access your local ip from any device on your local network and you will be able to test the app responsiveness 
+nb: I'm using browsersync. It means you can access your local ip from any device on your local network and you will be able to test the app responsiveness
 
 
 #My steps
