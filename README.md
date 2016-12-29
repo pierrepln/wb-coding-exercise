@@ -1,6 +1,6 @@
 Explore any city
 
-![gif](https://gfycat.com/ifr/OrnerySpicyIberianmidwifetoad)
+![gif](https://gfycat.com/ifr/OrnerySpicyIberianmidwifetoad.gif)
 
 
 Started coding exercise using angular/quickstart from
