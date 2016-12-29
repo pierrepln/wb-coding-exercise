@@ -20,4 +20,4 @@ import { VenueService } from './venue.service';
   providers: [ VenueService ],
   bootstrap:    [ AppComponent ]
 })
-export class AppModule { }
+export class AppModule {}

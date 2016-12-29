@@ -32,12 +32,11 @@ Writing 'TODO' #
 
 Parse response or result component, select relevant informations and display it
 
-#TODO
-
 Remove mock-up search and add search component input
-...maybe split in extra steps later.
 
 Style app and its components
+
+#TODO
 
 Check and insure production readyness
 
