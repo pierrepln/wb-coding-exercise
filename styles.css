@@ -6,5 +6,5 @@ body {
   font-weight: 200;
   color: white;
 
-  background: url('./bg.png') 50% 0%;
+  background: url('./bg.png') fixed;
 }

@@ -6,6 +6,7 @@
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border: 1px dashed white;
+  font-weight: 400;
 }
 .result h2 {
 }
@@ -13,4 +14,6 @@
   display: inline-block;
   float: right;
   padding-right: 35px;
+  font-size: 22px;
+  font-weight: 400;
 }

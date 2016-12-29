@@ -51,3 +51,6 @@ p {
   margin-left: 10px;
   color: white;
 }
+.wrapper {
+  min-height: 600px;
+}
