@@ -6,8 +6,10 @@ import { VenueService } from './venue.service';
   selector: 'result',
   template: `
     <div *ngFor="let venue of venues" >
-      <p>{{venue}}</p>
-      <p>{{venue.name}}</p>
+      <h2>{{venue.name}}</h2>
+      <p>{{venue.categories[0].name}}</p>
+      <p>{{venue.location.address}}, {{venue.location.city}}</p>
+      <p>{{venue.rating}}</p>
       <hr/>
     </div>
   `
@@ -20,10 +22,8 @@ export class ResultComponent  {
   ngOnInit(): void {
     this.venueService.getVenues('london')
       .then(items => {
-        for (let item of items) {
+        for (let item of items)
           this.venues.push(item.venue);
-          console.log(item);
-        }
       });
   }
 }
