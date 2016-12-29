@@ -1,0 +1,6 @@
+<div *ngIf="venue" class="result">
+  <h2>{{venue.name}}</h2>
+  <span>{{venue.rating}}</span>
+  <p>{{venue.categories[0].name}}</p>
+  <p>{{venue.location.address}}, {{venue.location.city}}</p>
+</div>

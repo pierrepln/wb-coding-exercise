@@ -1,0 +1,10 @@
+<div class="search">
+  <input #term
+    (keyup.enter)="search(term.value)"
+    (blur)="search(term.value)"
+    value="london" />
+  <button (click)="search(term.value)"><img src="https://ss0.4sqi.net/img/chrome/icon-go_foursquare8@2x-8104e4d03ad47b81f079c1f043220e75.png" /><span>Search</span></button>
+</div>
+<div *ngIf="venues.length > 0">
+  <result *ngFor="let venue of venues" [venue]="venue"></result>
+</div>

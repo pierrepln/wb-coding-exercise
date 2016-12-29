@@ -1,0 +1,16 @@
+.result {
+  padding: 2px 25px;
+  font-size: 16px;
+  line-height: 18px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border: 1px dashed white;
+}
+.result h2 {
+}
+.result span {
+  display: inline-block;
+  float: right;
+  padding-right: 35px;
+}
