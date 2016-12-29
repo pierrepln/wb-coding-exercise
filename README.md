@@ -2,7 +2,9 @@ Started coding exercice using angular/quickstart https://github.com/angular/quic
 
 #TL;DR
 `git clone https://github.com/pierrepln/wb-coding-exercise`
+
 `npm i`
+
 `npm start`
 
 
