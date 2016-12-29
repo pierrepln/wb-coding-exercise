@@ -1,2 +1,3 @@
-# wb-coding-exercise
-developer test using foursquare API
+Started coding exercice using angular/quickstart https://github.com/angular/quickstart
+
+Made with ♥️ by Pierre Plantié
