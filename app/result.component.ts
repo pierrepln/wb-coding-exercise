@@ -20,9 +20,10 @@ export class ResultComponent  {
   ngOnInit(): void {
     this.venueService.getVenues('london')
       .then(items => {
-        for (let item of items)
-          console.log(item);
+        for (let item of items) {
           this.venues.push(item.venue);
+          console.log(item);
+        }
       });
   }
 }
