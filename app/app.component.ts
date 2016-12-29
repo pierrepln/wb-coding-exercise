@@ -1,11 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
+  moduleId: module.id,
   selector: 'my-app',
-  template: `
-    <h1>Explore any city</h1>
-    <p>Discover the greatest venues in any city in the world</p>
-    <search></search>
-  `
+  templateUrl: 'app.component.html',
+  styleUrls: ['app.component.css']
 })
 export class AppComponent {}

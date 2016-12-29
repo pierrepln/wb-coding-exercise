@@ -2,19 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { VenueService } from './venue.service';
 
 @Component({
+  moduleId: module.id,
   selector: 'search',
-  template: `
-    <div>
-      <input #term
-        (keyup.enter)="search(term.value)"
-        (blur)="search(term.value)"
-        value="london" />
-      <button (click)="search(term.value)"><img src='' /><span>Search</span></button>
-    </div>
-    <div *ngIf="venues.length > 0">
-      <result *ngFor="let venue of venues" [venue]="venue"></result>
-    </div>
-  `
+  templateUrl: 'search.component.html',
+  styleUrls: ['search.component.css']
 })
 export class SearchComponent implements OnInit  {
   venues: any;
