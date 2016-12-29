@@ -30,9 +30,9 @@ Writing 'my steps' #
 
 Writing 'TODO' #
 
+Parse response or result component, select relevant informations and display it
 
 #TODO
-Parse response or result component, select relevant informations and display it
 
 Remove mock-up search and add search component input
 ...maybe split in extra steps later.
@@ -41,6 +41,7 @@ Style app and its components
 
 Check and insure production readyness
 
+???find picture for each venue???
 
 #Bonus
 Docker container (IIRC nginx as a nice docker-image that is
