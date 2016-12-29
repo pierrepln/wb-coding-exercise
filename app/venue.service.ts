@@ -8,7 +8,7 @@ export class VenueService {
   // TODO: check for production readyness
   private CLIENT_ID = 'APNIFJ0HVYMOZI15II0VA131JMD4MYOECNUNQVZJQMBJFN1F';
   private CLIENT_SECRET = 'WYAWHMPEQE4WYO45M3ADSFC20SBS2FB1SDCHGGKDJSKLHOWP';
-  private YYYYMMDD = '20161229';
+  private YYYYMMDD = '20161229'; // required for version
   private venueUrlPrefix = `https://api.foursquare.com/v2/venues/explore?near=`;
   private venueUrlSuffix = `&client_id=${this.CLIENT_ID}&client_secret=${this.CLIENT_SECRET}&v=${this.YYYYMMDD}`;
 
@@ -18,7 +18,7 @@ export class VenueService {
     const url = this.venueUrlPrefix + search + this.venueUrlSuffix;
     return this.http.get(url)
                .toPromise()
-               .then(response => response.json().data)
+               .then(response => response.json().response.groups[0].items)
                .catch(this.handleError);
   }
 
