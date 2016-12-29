@@ -1,40 +1,57 @@
 Started coding exercise using angular/quickstart from
 https://github.com/angular/quickstart
 
-#TL;DR
+
+#tl;dr
+`git clone https://github.com/pierrepln/wb-coding-exercise && cd wb-coding-exercise && npm i && npm start`
+
+
+
+#Install Process (MacOS X)
+
+Install node from https://nodejs.org/en/
+
+Fire up a terminal and run
 `git clone https://github.com/pierrepln/wb-coding-exercise`
-
+then
+`cd wb-coding-exercise`
+then
 `npm i`
-
+then
 `npm start`
 
-First I wanted to get started quickly and get the simplest prototype. I followed the following steps.
+It should open a browser for you.
+nb: I'm using browsersync. It means you can access your local ip from any device on your local network and you will be able to test the app responsiveness 
+
 
 #My steps
-Cloned a quickstart boilerplate
+First I wanted to get started quickly and get the simplest prototype. I followed the following steps.
 
-Created shallow modules and service
+1.Cloned a quickstart boilerplate
 
-Linked modules and service to the app
+2.Created shallow modules and service
 
-Created FourSquare developer account and got my API id and
+3.Linked modules and service to the app
+
+4.Created FourSquare developer account and got my API id and
 secret
 
-Explored API documentation and selected 'explore' endpoint to answer my app need
+5.Explored API documentation and selected 'explore' endpoint to answer my app need
 
-Implemented API call draft in my service (with mock-up data for search tag)
+6.Implemented API call draft in my service (with mock-up data for search tag)
 
-Debugged thanks to console(ie. network tab) until successful request
+7.Debugged thanks to console(ie. network tab) until successful request
 
-Writing 'my steps' #
+8.Writing 'my steps' #
 
-Writing 'TODO' #
+9.Writing 'TODO' #
 
-Parse response or result component, select relevant informations and display it
+10.Parse response or result component, select relevant informations and display it
 
-Remove mock-up search and add search component input
+11.Remove mock-up search and add search component input
 
-Style app and its components
+12.Style app and its components
+
 
 #TODO
 
@@ -42,7 +59,9 @@ Check and insure production readyness
 
 ???find picture for each venue???
 
+
 #Bonus
+
 Docker container (IIRC nginx as a nice docker-image that is
 easy to get started with)
 
